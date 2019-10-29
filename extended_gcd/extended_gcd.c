@@ -4,6 +4,7 @@ int main()
 {
   mpz_t a,b,d,x,y,x1,x2,y1,y2,q,r,t;
   mpz_inits(a,b,d,x,y,x1,x2,y1,y2,q,r,t,NULL);
+  gmp_printf("Enter two nos: \n");
   gmp_scanf("%Zd %Zd",a,b);
 
   if(mpz_cmp_ui(b,0)==0){
@@ -36,5 +37,5 @@ int main()
   mpz_set(x,x2);
   mpz_set(y,y2);
 
-  gmp_printf("%Zd\n",d);
+  gmp_printf("GCD: %Zd\n",d);
 }

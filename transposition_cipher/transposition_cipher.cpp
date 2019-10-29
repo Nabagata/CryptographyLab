@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
   string str;
+  cout<<"Enter string:\n";
   cin>>str;
   string odd,even,res;
   for(int i=0;i<str.length();i++){
@@ -11,5 +12,5 @@ int main()
     else even+=str[i];
   }
   res=odd+even;
-  cout<<res;
+  cout<<"Encrypted string: "<<res<<endl;
 }

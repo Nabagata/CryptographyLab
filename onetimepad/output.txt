@@ -1,0 +1,5 @@
+c167140@uselab160:~/FY/onetimepad$ ./a.out
+Text : hello
+Key: xmckl
+Cipher: eqnvz
+Text : hello

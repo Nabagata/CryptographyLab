@@ -1,0 +1,4 @@
+c167140@uselab160:~/FY$ ./a.out
+Enter string:
+hello
+Encrypted string: hloel

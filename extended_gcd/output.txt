@@ -1,0 +1,4 @@
+c167140@uselab160:~/FY/extended_gcd$ ./a.out
+Enter two nos:
+15 45
+GCD: 15

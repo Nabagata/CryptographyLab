@@ -1,0 +1,13 @@
+c167140@uselab160:~/FY$ ./a.out
+
+Enter bits p followed by q :4
+
+Generator : 2
+Publickey: 9 and
+ Privatekey: 5
+
+m = 11
+k = 16
+Ciphertext (C1,C2) : ( 9 , 19 )
+
+Plain Text Text is : 11

@@ -1,0 +1,5 @@
+c167140@uselab160:~/FY$ ./a.out
+Text : nabagata
+Key: lol
+Cipher: zpnmvmfp
+Text : nabagata

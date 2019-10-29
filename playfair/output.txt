@@ -1,0 +1,24 @@
+c167140@uselab160:~/FY$ ./a.out
+sh: 1: CLS: not found
+1. Encipher
+2. Decipher
+3. Exit
+Enter choice: 1
+Keyword: hunt
+5x5 Matrix
+H U N T A
+B C D E F
+G I K L M
+O P Q R S
+V W X Y Z
+Message to cypher: hype
+Cypher text: TVRC
+
+sh: 1: CLS: not found
+1. Encipher
+2. Decipher
+3. Exit
+Enter choice: 2
+Keyword: hunt
+Cypher text: TVRC
+Decipher text: HYPE
