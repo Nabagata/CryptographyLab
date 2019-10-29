@@ -1,0 +1,5 @@
+c167140@uselab160:~/FY$ ./a.out
+Text : ATTACKATONCE
+Shift: 4
+Cipher: EXXEGOEXSRGI
+Decipher: ATTACKATONCE

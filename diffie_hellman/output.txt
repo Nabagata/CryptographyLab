@@ -1,0 +1,9 @@
+c167140@uselab160:~/FY/diffie_hellman$ ./a.out
+The value of P : 23
+The value of G : 9
+
+The private key a for Alice : 4
+The private key b for Bob : 3
+
+Secret key for the Alice is : 9
+Secret Key for the Bob is : 9
