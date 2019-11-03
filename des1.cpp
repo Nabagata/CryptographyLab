@@ -1,12 +1,3 @@
-/**
- * Title: Data Encryption Standard Algorithm
- *
- * Author: Rajmani Arya
- * Date: 21st Sep 2016
- *
- * Modified version of @see https://github.com/tarequeh/DES
- */
-
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
