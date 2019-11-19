@@ -1,0 +1,15 @@
+RSA Assymetric Key Cryptosystems
+================================
+
+* Computes a^b mod c
+* Computes the Jacobi symbol, (a, n)
+* Check whether a is a Euler witness for n
+* Test if n is probably prime, using accuracy of k (k solovay tests)
+* Find a random (probable) prime between 3 and n - 1, this distribution is nowhere near uniform, see prime gaps.
+* Compute gcd(a, b)
+* Find a random exponent x between 3 and n - 1 such that gcd(x, phi) = 1, this distribution is similarly nowhere near uniform.
+* Compute n^-1 mod m by extended euclidian method
+* Encode the message m using public exponent and modulus, c = m^e mod n
+* Decode cryptogram c using private exponent and public modulus, m = c^d mod n
+* Encode the message of given length, using the public key (exponent, modulus). The resulting array will be of size len/bytes, each index being the encryption of "bytes" consecutive characters, given by m = (m1 + m2*128 + m3*128^2 + ..), encoded = m^exponent mod modulus
+* Decode the cryptogram of given length, using the private key (exponent, modulus). Each encrypted packet should represent "bytes" characters as per encodeMessage. The returned message will be of size len * bytes.
